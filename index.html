@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="reset.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+  <title>form de cada duvidosa</title>
+</head>
+
+<body>
+  <h1>
+    Teste Formulário
+  </h1>
+  <div class="formzin">
+    <form>
+      <div class="fName"><label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" placeholder="Tell us your first name" required><br>
+      </div>
+
+
+      <div class="lName"> <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" placeholder="Tell us your last name" required><br>
+      </div>
+
+      <div class="select"><label for="select-choice">Choose your favorite game</label><br>
+        <select id="select-choice">
+          <option value="cs:go">CS:GO</option>
+          <option value="valorant">Valorant</option>
+          <option value="lol">League of legends</option>
+        </select>
+      </div>
+
+
+      <div class="textArea"><label for="white_box">Write here what you want to say: </label><br>
+        <textarea cols="22" rows="3" id="textarea"></textarea>
+      </div>
+
+
+      <div class="birth"><label for="birthday">Tell us your birthday:</label><br>
+        <input type="date" id="birthday" name="birthday">
+      </div>
+
+
+      <div class="password"> <label for="pass">Create your password here: <br>(8 characters minimum)</label>
+        <br><input type="password" id="pass" name="password" minlength="8" placeholder="Password" required>
+      </div>
+
+      <div class="email"> <label for="email">Tell us here your email:</label><br>
+        <input type="email" id="email" name="email" placeholder="E-Mail" required>
+      </div>
+
+      <div class="chkDiscord"> <label for="checkDisc">Do you use discord?</label><br>
+        <input type="checkbox" id="discord" name="checkDisc">
+      </div>
+
+      <div class="btn">
+        <button>Complete seu login</button>
+      </div>
+  </div>
+
+
+  </form>
+</body>
+
+</html>
