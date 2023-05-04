@@ -1,0 +1,69 @@
+html {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif;
+  background-color: aqua;
+}
+
+h1{
+  width: 100vmax;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  background-color: white;
+  text-align: center;
+  font-size: 130%;
+}
+
+.formzin, ::placeholder, option{
+  font-size: 105%;
+  text-align: center;
+}
+
+.formzin{
+  padding: 35px;  
+}
+
+.fName{
+  padding-bottom: 20px;  
+}
+
+.lName{
+  padding-bottom: 20px;
+}
+
+.select{
+  padding-bottom: 20px;
+}
+
+.textArea{
+  padding-bottom: 20px;
+}
+
+textarea {
+  resize: none;
+}
+
+.birth{
+  padding-bottom: 20px;
+}
+
+.password{
+  padding-bottom: 20px;
+}
+
+.email{
+  padding-bottom: 20px;
+}
+
+.chkDiscord{
+  padding-bottom: 20px;
+}
+
+.btn{
+  
+}
+
+button{
+  cursor: pointer;
+}
